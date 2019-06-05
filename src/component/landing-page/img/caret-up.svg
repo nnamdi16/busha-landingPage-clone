@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>38C4BFDB-AC7E-43E0-8EB5-D17E8BD6844F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polyline id="path-1" points="1.50833 0.07917 0.33333 1.25417 7 7.92083 13.66667 1.25417 12.49167 0.07917 7 5.5625"></polyline>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage---expanded" transform="translate(-698.000000, -1000.000000)">
+            <g id="caret-up" transform="translate(711.000000, 1013.000000) scale(1, -1) translate(-711.000000, -1013.000000) translate(699.000000, 1001.000000)">
+                <g id="Group">
+                    <g transform="translate(5.000000, 9.000000)">
+                        <g id="a-link" fill="#000000" fill-rule="nonzero">
+                            <polyline id="a" points="1.50833 0.07917 0.33333 1.25417 7 7.92083 13.66667 1.25417 12.49167 0.07917 7 5.5625"></polyline>
+                        </g>
+                        <g id="Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="a"></g>
+                            <g id="Group" mask="url(#mask-2)" fill="#67C462" fill-rule="nonzero">
+                                <g transform="translate(-3.000000, -6.000000)" id="Path">
+                                    <polygon points="0 0 20 0 20 20 0 20"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <circle id="Oval" stroke="#67C462" cx="12" cy="12" r="12"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
