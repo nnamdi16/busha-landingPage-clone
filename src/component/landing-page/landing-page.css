@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+.left-header {
+    display: grid;
+    grid-template-rows: 1.4fr 1fr;
+    grid-template-columns: 0.5fr 1fr 3fr;
+}
+
+.landingPage-logo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.right-header {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(2, 1fr) 0.5fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.nav-a-default {
+    color: #222d4f;
+    font-family: MarkPro;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    padding-top: 0.5rem;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.header-button {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.button-overlay {
+    border: 1px solid #67c462;
+    border-radius: 2px;
+    width: 151px;
+    height: 36px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    position: relative;
+    right: 0.3rem;
+    top: 0.2rem;
+}
+
+.busha-logo {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+
+/* Banner */
+
+.banner-right-bg {
+    z-index: 1;
+    position: absolute;
+}
+
+.landingPage-first-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.clip {
+    position: relative;
+    z-index: 1;
+}
+
+.landingPage-second-banner {
+    display: grid;
+    grid-template-columns: 0.09fr 0.7fr 1fr;
+}
+
+.left-position {
+    grid-column: 2/3;
+}
+
+.right-position {
+    grid-column: 3/4;
+}
+
+.landingPage-second-banner-left {
+    display: grid;
+    grid-template-rows: 0.1 fr repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.landingPage-discover {
+    grid-row: 2/3;
+    color: #1b314b;
+    font-family: MarkPro;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+    width: 476px;
+    text-align: left;
+}
+
+.landingPage-discover>p {
+    margin: 3rem 0 0 0;
+}
+
+.landingPage-note {
+    grid-row: 3/4;
+    color: #697788;
+    font-family: MarkPro;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 27px;
+    width: 431px;
+    text-align: left;
+}
+
+.landingPage-start {
+    grid-row: 4/5;
+    position: relative;
+    right: 8rem;
+}
+
+
+/* Main */
+
+.landingPage-main {
+    display: grid;
+    grid-template-rows: 0.1fr minmax(1.25rem, 68rem) minmax(1.25rem, 65rem) minmax(1.25rem, 16.5rem) minmax(1.25rem, 20rem);
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+    top: 6rem;
+}
+
+.landingPage-first-info {
+    grid-row: 2/3;
+}
+
+.landingPage-second-info {
+    grid-row: 3/4;
+}
+
+.landingPage-third-info {
+    grid-row: 4/5;
+    background-color: #F4F9F2;
+}
+
+.landingPage-fourth-footer {
+    grid-row: 5/6;
+}
+
+.landingPage-footer {
+    display: grid;
+    grid-template-rows: 0.5fr repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.first-row-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.first-row-item2 {
+    grid-column: 2/3;
+    text-align: left;
+}
+
+.first-row-item3 {
+    grid-column: 3/4;
+    text-align: left;
+}
+
+.first-row-item4 {
+    grid-column: 4/5;
+    text-align: left;
+}
+
+.first-row-item2 li {
+    list-style: none;
+}
+
+.first-row-item3 li {
+    list-style: none;
+}
+
+.first-row-item4 li {
+    list-style: none;
+}
+
+.footer-first-row {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.footer-second-row {
+    grid-row: 3/4;
+    grid-column: 2/3
+}
+
+.third-info-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr repeat(3, 1fr);
+}
+
+.third-info-first-content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.third-info-second-content {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.third-info-third-content {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.third-content-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.4rem;
+}
+
+.landingPage-main-section {
+    display: grid;
+    grid-template-columns: 0.15fr 2fr 1fr;
+    grid-template-rows: 0.01fr 1fr;
+}
+
+.landingPage-first-main-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.landingPage-second-main-section {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 2fr;
+    grid-template-rows: 0.01fr;
+}
+
+.landingPage-second-main-info {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.landingPage-first-side-info {
+    grid-column: 3/4;
+}
+
+.landingPage-second-side-info {
+    grid-column: 2/3;
+}
+
+.first-bullet {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: minmax(1.25rem, 3.125rem) minmax(1.25rem, 7.5rem) minmax(1.25rem, 1.875rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem);
+}
+
+.key-note {
+    grid-row: 2/3;
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+    width: 516px;
+    text-align: left;
+    margin: 0;
+}
+
+.close-btn {
+    color: #67c462;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.07px;
+    line-height: 19px;
+    text-align: left;
+    grid-row: 3/4;
+    text-transform: uppercase;
+}
+
+.landingPage-card {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.landingPage-second-card {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.landingPage-third-card {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.landingPage-fourth-card {
+    grid-row: 7/8;
+    grid-column: 1/2;
+}
+
+
+/* Card */
+
+.card-content {
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+}
+
+.first-card-content {
+    grid-row: 1/2;
+    padding: 1rem 0;
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 1fr 0.05fr;
+}
+
+.card-title {
+    grid-column: 1/2;
+    margin: 0;
+    color: #1b314b;
+    font-family: MarkPro;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    line-height: 29px;
+    text-align: left;
+    padding: 0 1.3rem;
+}
+
+.second-card-content {
+    grid-row: 2/3;
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 595px;
+    text-align: left;
+    padding: 0 1.3rem;
+}
+
+.second-card-content>p {
+    margin: 0;
+}
