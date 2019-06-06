@@ -291,9 +291,28 @@ body {
     text-transform: uppercase;
 }
 
+.plusLogo {
+    grid-column: 4/5;
+}
+
 .landingPage-card {
     grid-row: 4/5;
     grid-column: 1/2;
+}
+
+.close-btn-position {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 0.1fr;
+}
+
+.close-btn-position>p {
+    margin: 0;
+}
+
+.btn-first-position {
+    grid-column: 3/4;
+    text-align: end;
+    padding-right: 0.5rem;
 }
 
 .landingPage-second-card {
