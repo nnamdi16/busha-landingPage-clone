@@ -68,7 +68,12 @@ export default class LandingPage extends Component {
 										Every journey begins with a single step, and crypto basics is the perfect place to start. Gain light
 										years of knowledge — no degree required.
 									</p>
-									<div className="close-btn">Close all</div>
+									<div className="close-btn">
+										<div className="close-btn-position">
+											<p className="btn-first-position">Expand all</p>
+											<Logo src={plusSign} plusIcon className="plusLogo" />
+										</div>
+									</div>
 									<div className="landingPage-card">
 										<Card>
 											<div className="card-content">
