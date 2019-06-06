@@ -10,6 +10,7 @@ import caretButton from './img/caret-up.svg';
 import folder from './img/folder.svg';
 import googlePlay from './img/google-play (1).svg';
 import appleLogo from './img/apple.svg';
+import plusSign from './img/plus.svg';
 
 export default class LandingPage extends Component {
 	render() {
