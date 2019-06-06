@@ -64,7 +64,7 @@ export default class LandingPage extends Component {
 						<div className="landingPage-main-section">
 							<div className="landingPage-first-main-info">
 								<div className="first-bullet">
-									<MainHeader>Cryptobasic</MainHeader>
+									<MainHeader>Crypto basic</MainHeader>
 									<p className="key-note">
 										Every journey begins with a single step, and crypto basics is the perfect place to start. Gain light
 										years of knowledge — no degree required.
@@ -80,7 +80,7 @@ export default class LandingPage extends Component {
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">What is cryptocurrency?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
@@ -97,15 +97,15 @@ export default class LandingPage extends Component {
 									</div>
 									<div className="landingPage-second-card">
 										{' '}
-										<Card>
+										<Card Card_lg>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">How is cryptocurrency different from regular money?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
-												<div className="second-card-content">
+												<div className="second-card-content_lg">
 													<p>
 														Let’s keep it simple: cryptocurrency is digital cash for the digital age. It’s similar to
 														regular money — think $$ or €€ — but it’s digital-only, so there are no bills or coins to
@@ -114,14 +114,14 @@ export default class LandingPage extends Component {
 												</div>
 											</div>
 										</Card>
-										<Card firstOverlay />
+										<Card firstOverlay_lg />
 									</div>
 									<div className="landingPage-third-card">
 										<Card>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">What is Bitcoin?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
@@ -137,15 +137,15 @@ export default class LandingPage extends Component {
 										<Card firstOverlay />
 									</div>
 									<div className="landingPage-fourth-card">
-										<Card>
+										<Card Card_lg>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">What are the different cryptocurrencies?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
-												<div className="second-card-content">
+												<div className="second-card-content_lg">
 													<p>
 														Let’s keep it simple: cryptocurrency is digital cash for the digital age. It’s similar to
 														regular money — think $$ or €€ — but it’s digital-only, so there are no bills or coins to
@@ -154,7 +154,7 @@ export default class LandingPage extends Component {
 												</div>
 											</div>
 										</Card>
-										<Card firstOverlay />
+										<Card firstOverlay_lg />
 									</div>
 								</div>
 							</div>
@@ -170,18 +170,23 @@ export default class LandingPage extends Component {
 							</div>
 							<div className="landingPage-second-main-info">
 								<div className="first-bullet">
-									<MainHeader>Cryptobasic</MainHeader>
+									<MainHeader>What makes it special?</MainHeader>
 									<p className="key-note">
 										Every journey begins with a single step, and crypto basics is the perfect place to start. Gain light
 										years of knowledge — no degree required.
 									</p>
-									<div className="close-btn">Close all</div>
+									<div className="close-btn">
+										<div className="close-btn-position">
+											<p className="btn-first-position">Expand all</p>
+											<Logo src={plusSign} plusIcon className="plusLogo" />
+										</div>
+									</div>
 									<div className="landingPage-card">
 										<Card>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">Why is cryptocurrency exciting?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
@@ -198,15 +203,15 @@ export default class LandingPage extends Component {
 									</div>
 									<div className="landingPage-second-card">
 										{' '}
-										<Card>
+										<Card Card_lg>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">How can cryoto make the world better?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
-												<div className="second-card-content">
+												<div className="second-card-content_lg">
 													<p>
 														Let’s keep it simple: cryptocurrency is digital cash for the digital age. It’s similar to
 														regular money — think $$ or €€ — but it’s digital-only, so there are no bills or coins to
@@ -215,14 +220,14 @@ export default class LandingPage extends Component {
 												</div>
 											</div>
 										</Card>
-										<Card firstOverlay />
+										<Card firstOverlay_lg />
 									</div>
 									<div className="landingPage-third-card">
 										<Card>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">Why do experts like cryptocurrencies?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
@@ -238,11 +243,31 @@ export default class LandingPage extends Component {
 										<Card firstOverlay />
 									</div>
 									<div className="landingPage-fourth-card">
+										<Card Card_lg>
+											<div className="card-content">
+												<div className="first-card-content">
+													<div className="card-header">
+														<h4 className="card-title">Where do cryptocurrency get their value?</h4>
+														<img src={caretButton} alt="More Info" />
+													</div>
+												</div>
+												<div className="second-card-content_lg">
+													<p>
+														Let’s keep it simple: cryptocurrency is digital cash for the digital age. It’s similar to
+														regular money — think $$ or €€ — but it’s digital-only, so there are no bills or coins to
+														carry around.
+													</p>
+												</div>
+											</div>
+										</Card>
+										<Card firstOverlay_lg />
+									</div>
+									<div className="landingPage-fifth-card">
 										<Card>
 											<div className="card-content">
 												<div className="first-card-content">
 													<div className="card-header">
-														<h4 className="card-title">What is Cryptocurrency</h4>
+														<h4 className="card-title">Where do cryptocurrency get their value?</h4>
 														<img src={caretButton} alt="More Info" />
 													</div>
 												</div>
@@ -269,13 +294,22 @@ export default class LandingPage extends Component {
 							<div className="third-info-second-content">Register and get started with Busha now</div>
 							<div className="third-info-third-content">
 								<div className="third-content-buttons">
-									<Button startButton>Get Started</Button>
-									<Button borderButton>
-										<Logo folderImage src={googlePlay} alt="Google Play store logo" />Google play
-									</Button>
-									<Button borderButton>
-										<Logo folderImage src={appleLogo} alt="Apple Play store logo" />Apple Store
-									</Button>
+									<div className="btn-first">
+										<Button startButton>Get Started</Button>
+									</div>
+									<div className="btn-second">
+										<Button borderButton>
+											<Logo className="social-media-position" socialMedia src={googlePlay} alt="Google Play store logo" />
+											<span>Get it on</span>
+											<p className="media-content">Google play</p>
+										</Button>
+									</div>
+									<div className="btn-third">
+										<Button borderButton>
+											<Logo className="social-media-position" socialMedia src={appleLogo} alt="Apple Play store logo" />	<span>Get it on</span>
+											<p className="media-content">Apple store</p>
+										</Button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -312,7 +346,9 @@ export default class LandingPage extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="footer-second-row">&copy; 2019 Busha. All rights reserved</div>
+							<div className="footer-second-row">
+								<p>	&copy; 2019 Busha. All rights reserved</p>
+							</div>
 						</footer>
 					</div>
 				</div>
@@ -325,10 +361,24 @@ const Logo = styled.img`
 	width: 100%;
 	height: 100%;
 	${props =>
+		props.socialMedia &&
+		css`
+			width: 50%;
+			height: 50%;
+		`};
+
+	${props =>
 		props.folderImage &&
 		css`
 			width: 30%;
 			height: 30%;
+		`};
+	${props =>
+		props.plusIcon &&
+		css`
+			width: 100%;
+			height: 100%;
+			grid-column: 4/5;
 		`};
 `;
 const Banner = styled.img`
@@ -390,7 +440,7 @@ const Button = styled.button`
 			grid-column: 3/4;
 			grid-row: 2/3;
 			position: absolute;
-			left: 8.6rem;
+			left: 8.8rem;
 			top: 0.3rem;
 			background: none;
 		`};
@@ -401,7 +451,7 @@ const Button = styled.button`
 			grid-column: 3/4;
 			grid-row: 2/3;
 			position: relative;
-			right: 3rem;
+			right: 0.3rem;
 			top: 0.2rem;
 			background: none;
 		`};
@@ -430,5 +480,16 @@ const Card = styled.div`
 			position: relative;
 			bottom: 10.2rem;
 			left: 0.4rem;
+		`};
+
+	${props => props.Card_lg && css`width: 45.6rem;`};
+
+	${props =>
+		props.firstOverlay_lg &&
+		css`
+			position: relative;
+			bottom: 10.2rem;
+			left: 0.4rem;
+			width: 45.6rem;
 		`};
 `;
