@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    color: #1b314b;
+    font-family: MarkPro;
 }
 
 
@@ -90,7 +92,7 @@ body {
 
 .landingPage-second-banner-left {
     display: grid;
-    grid-template-rows: 0.1 fr repeat(5, 1fr);
+    grid-template-rows: 0.1fr repeat(3, 1fr);
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -117,14 +119,15 @@ body {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 27px;
-    width: 431px;
+    width: 30rem;
     text-align: left;
 }
 
 .landingPage-start {
     grid-row: 4/5;
     position: relative;
-    right: 8rem;
+    right: 8.7rem;
+    top: 2rem;
 }
 
 
@@ -132,7 +135,7 @@ body {
 
 .landingPage-main {
     display: grid;
-    grid-template-rows: 0.1fr minmax(1.25rem, 68rem) minmax(1.25rem, 65rem) minmax(1.25rem, 16.5rem) minmax(1.25rem, 20rem);
+    grid-template-rows: 0.1fr minmax(1.25rem, 68rem) minmax(1.25rem, 90rem) minmax(1.25rem, 18rem) minmax(1.25rem, 20rem);
     background: #ffffff;
     position: relative;
     z-index: 2;
@@ -149,7 +152,7 @@ body {
 
 .landingPage-third-info {
     grid-row: 4/5;
-    background-color: #F4F9F2;
+    background-color: #f4f9f2;
 }
 
 .landingPage-fourth-footer {
@@ -158,8 +161,10 @@ body {
 
 .landingPage-footer {
     display: grid;
-    grid-template-rows: 0.5fr repeat(2, 1fr);
+    grid-template-rows: 0.5fr repeat(2, 0.8fr);
     grid-template-columns: 1fr 2fr 1fr;
+    color: #1b314b;
+    font-family: MarkPro;
 }
 
 .first-row-items {
@@ -167,9 +172,19 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.first-row-item1 {
+    grid-column: 1/2;
+    position: relative;
+    top: 1rem;
+}
+
 .first-row-item2 {
     grid-column: 2/3;
     text-align: left;
+}
+
+.first-row-items li {
+    padding: 0.5rem;
 }
 
 .first-row-item3 {
@@ -201,7 +216,10 @@ body {
 
 .footer-second-row {
     grid-row: 3/4;
-    grid-column: 2/3
+    grid-column: 2/3;
+    position: relative;
+    top: 6rem;
+    max-height: 6rem;
 }
 
 .third-info-content {
@@ -213,11 +231,21 @@ body {
 .third-info-first-content {
     grid-column: 2/3;
     grid-row: 2/3;
+    color: #1b314b;
+    font-family: MarkPro;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    font-size: 1.2rem;
+}
+
+.third-info-first-content>p {
+    margin: 0;
 }
 
 .third-info-second-content {
     grid-column: 2/3;
     grid-row: 3/4;
+    color: #1b314b;
 }
 
 .third-info-third-content {
@@ -231,40 +259,90 @@ body {
     grid-column-gap: 0.4rem;
 }
 
+.btn-first {
+    grid-column: 1/2;
+}
+
+.btn-second {
+    grid-column: 2/3;
+}
+
+.btn-third {
+    grid-column: 3/4;
+}
+
+.social-media-position {
+    position: relative;
+    left: -1.3rem;
+    top: 0.5rem;
+    max-width: 3rem;
+}
+
+.btn-third .social-media-position {
+    max-width: 2rem;
+}
+
+.media-content {
+    margin: 0;
+    position: relative;
+    bottom: 0.5rem;
+    font-size: 80%;
+    left: 1rem;
+    max-width: 6.25rem;
+}
+
+.btn-second span {
+    font-size: 50%;
+    position: relative;
+    top: -0.2rem;
+    left: -1rem;
+}
+
+.btn-third span {
+    font-size: 50%;
+    position: relative;
+    top: -0.2rem;
+    left: -1rem;
+}
+
 .landingPage-main-section {
     display: grid;
     grid-template-columns: 0.15fr 2fr 1fr;
-    grid-template-rows: 0.01fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
 }
 
 .landingPage-first-main-info {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
 }
 
 .landingPage-second-main-section {
     display: grid;
     grid-template-columns: 0.15fr 1fr 2fr;
-    grid-template-rows: 0.01fr;
+    grid-template-rows: 0.1fr 1fr;
 }
 
 .landingPage-second-main-info {
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
 }
 
 .landingPage-first-side-info {
     grid-column: 3/4;
+    grid-row: 2/3;
 }
 
 .landingPage-second-side-info {
     grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+    top: 11rem;
 }
 
 .first-bullet {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: minmax(1.25rem, 3.125rem) minmax(1.25rem, 7.5rem) minmax(1.25rem, 1.875rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem);
+    grid-template-rows: minmax(1.25rem, 3.125rem) minmax(1.25rem, 7.5rem) minmax(1.25rem, 1.875rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem) minmax(1.25rem, 12rem);
 }
 
 .key-note {
@@ -274,9 +352,10 @@ body {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 28px;
-    width: 516px;
+    width: 34rem;
     text-align: left;
     margin: 0;
+    letter-spacing: 0rem;
 }
 
 .close-btn {
@@ -330,6 +409,11 @@ body {
     grid-column: 1/2;
 }
 
+.landingPage-fifth-card {
+    grid-row: 8/9;
+    grid-column: 1/2;
+}
+
 
 /* Card */
 
@@ -353,7 +437,7 @@ body {
     margin: 0;
     color: #1b314b;
     font-family: MarkPro;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: -0.1px;
     line-height: 29px;
@@ -371,6 +455,22 @@ body {
     width: 595px;
     text-align: left;
     padding: 0 1.3rem;
+}
+
+.second-card-content_lg {
+    grid-row: 2/3;
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 42rem;
+    text-align: left;
+    padding: 0 1.3rem;
+}
+
+.second-card-content_lg>p {
+    margin: 0;
 }
 
 .second-card-content>p {
